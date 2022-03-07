@@ -9,4 +9,4 @@
 ✔投标  
 企图用draw-page-structure自动生成骨架屏，但是看效果有点问题还要再细细修改下  
 ### 动画演示：
-[!img](https://github.com/serincqqq/vue-hsc/blob/master/demo.gif)
+ ![image](https://github.com/serincqqq/vue-hsc/blob/master/demo.gif)
