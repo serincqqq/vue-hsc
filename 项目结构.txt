@@ -1,0 +1,120 @@
+
+│  lb.txt
+│  
+├─api
+│      index.js
+│      
+├─assets
+│  │  logo.png
+│  │  
+│  ├─css
+│  │  │  color-dark.css
+│  │  │  icon.css
+│  │  │  main.css
+│  │  │  
+│  │  └─theme-green
+│  │      │  color-green.css
+│  │      │  index.css
+│  │      │  
+│  │      └─fonts
+│  │              element-icons.ttf
+│  │              element-icons.woff
+│  │              
+│  └─img
+│      │  ewm.png
+│      │  img.jpg
+│      │  login-bg.jpg
+│      │  main1.jpg
+│      │  main2.jpg
+│      │  pic.jpg
+│      │  school.png
+│      │  tx.jpg
+│      │  
+│      └─school
+│              10001.jpg
+│              10286.jpg
+│              10614.jpg
+│              10698.jpg
+│              11942.jpg
+│              
+├─components
+│  └─common**(这里的文件是一些页面的组件)**
+│      │  bus.js
+│      │  Check.vue（这是验证码的组件）
+│      │  directives.js
+│      │  Footer.vue（首页的底部栏）
+│      │  Header.vue（首页头部栏）
+│      │  Home.vue（采购方主页的主文件）
+│      │  i18n.js
+│      │  Sidebar.vue（采购方主页的侧边栏）
+│      │  Tags.vue（采购方主页的标签栏）
+│      │  
+│      ├─IndexItem（首页的各种组件）
+│      │      BiddingColumn.vue（首页的卡片栏，三个）
+│      │      Header.vue（首页头文件）
+│      │      IndexCard.vue（首页的图片栏）
+│      │      IndexChart.vue（首页背景图）
+│      │      
+│      └─Sup（供应商主页的组件，和采购方类似）
+│              Header.vue
+│              Home.vue
+│              Sidebar.vue
+│              
+├─index（首页的入口，多页面其一）
+│  │  Home.vue（首页的自述文件）
+│  │  index.html
+│  │  index.router.js
+│  │  main.js
+│  │  
+│  └─views
+│          Detail.vue（这是每一个招标信息对应的细节显示页面）
+│          Index.vue
+│          
+├─PurSys（采购方的入口，多页面其二）
+│  │  Home.vue
+│  │  PLogin.vue（供应商登录）
+│  │  Preg.vue（供应商注册）
+│  │  purchaser.html
+│  │  purchaser.main.js
+│  │  router.js
+│  │  
+│  └─view（模板里的子页面）
+│          BaseCharts.vue
+│          BaseForm.vue
+│          BaseTable.vue
+│          Dashboard.vue
+│          I18n.vue
+│          Icon.vue
+│          Projectreview.vue
+│          Tabs.vue
+│          tt.vue
+│          Upload.vue
+│          
+├─store
+│  │  index.js
+│  │  
+│  └─AllUsers
+│          Supplier.js
+│          
+├─SupSys（供应商的入口，多页面其二，目录类似供应商）
+│  │  Home.vue
+│  │  router.js
+│  │  SLogin.vue
+│  │  Sreg.vue
+│  │  Supplier.html
+│  │  Supplier.main.js
+│  │  
+│  └─view
+│          BaseCharts.vue
+│          BaseForm.vue
+│          BaseTable.vue
+│          BaseTableBid.vue
+│          Dashboard.vue
+│          I18n.vue
+│          Icon.vue
+│          Publicity.vue
+│          Tabs.vue
+│          
+└─utils
+        request.js
+        
